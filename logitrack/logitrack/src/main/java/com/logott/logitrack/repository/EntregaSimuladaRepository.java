@@ -1,4 +1,7 @@
 package com.logott.logitrack.repository;
 
-public interface EntregaSimuladaRepository {
+import com.logott.logitrack.model.EntregaSimulada;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EntregaSimuladaRepository extends JpaRepository<EntregaSimulada, Long> {
 }

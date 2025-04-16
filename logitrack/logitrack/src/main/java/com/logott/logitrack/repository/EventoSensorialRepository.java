@@ -1,4 +1,7 @@
 package com.logott.logitrack.repository;
 
-public interface EventoSensorialRepository {
+import com.logott.logitrack.model.EventoSensorial;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface EventoSensorialRepository extends JpaRepository<EventoSensorial, Long> {
 }
